@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52384" started-at="2022-01-27T09:19:22 IST" finished-at="2022-01-27T09:20:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52384" started-at="2022-01-27T09:19:22 IST" finished-at="2022-01-27T09:20:14 IST">
+      <class name="selectclassmethods.TC_Support_001">
+        <test-method status="PASS" signature="createRequest(java.lang.String)[pri:0, instance:selectclassmethods.TC_Support_001@184f6be2]" name="createRequest" duration-ms="13134" started-at="2022-01-27T09:19:22 IST" data-provider="sendMobileInfo" finished-at="2022-01-27T09:19:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRequest -->
+        <test-method status="PASS" signature="createRequest(java.lang.String)[pri:0, instance:selectclassmethods.TC_Support_001@184f6be2]" name="createRequest" duration-ms="10456" started-at="2022-01-27T09:19:35 IST" data-provider="sendMobileInfo" finished-at="2022-01-27T09:19:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRequest -->
+        <test-method status="PASS" signature="createRequest(java.lang.String)[pri:0, instance:selectclassmethods.TC_Support_001@184f6be2]" name="createRequest" duration-ms="17945" started-at="2022-01-27T09:19:45 IST" data-provider="sendMobileInfo" finished-at="2022-01-27T09:20:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[poco]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRequest -->
+        <test-method status="PASS" signature="createRequest(java.lang.String)[pri:0, instance:selectclassmethods.TC_Support_001@184f6be2]" name="createRequest" duration-ms="10801" started-at="2022-01-27T09:20:03 IST" data-provider="sendMobileInfo" finished-at="2022-01-27T09:20:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[oneplus]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRequest -->
+      </class> <!-- selectclassmethods.TC_Support_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

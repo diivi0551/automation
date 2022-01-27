@@ -1,0 +1,24 @@
+package asssignment1_diivisharanps;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WindowIdofFacebook {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver",
+				"D:\\chromedriver_win32\\chromedriver.exe");
+		
+		ChromeDriver driver= new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.navigate().to("https://www.facebook.com/");
+		 
+		String f = driver.getWindowHandle();
+		System.out.println(f);
+
+
+
+
+
+	}
+
+}
